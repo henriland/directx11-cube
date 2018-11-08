@@ -12,4 +12,4 @@ Works with the 32-bit and the 64-bit Visual Studio build.
 2. Create a new Visual Studio Project and add source code to new project
 3. From the project properties set characters to "Use Unicode Character Set"
 4. In graphicsclass.cpp and lightshaderclass.cpp change in code "DirectX11Cube" to your project name e.g. "Project1"
-5. After these changes the code should work
+5. After these changes the project should work
