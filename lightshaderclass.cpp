@@ -32,8 +32,8 @@ bool LightShaderClass::Initialize(ID3D11Device* device, HWND hwnd)
 
 
 	// Initialize the vertex and pixel shaders.
-	wchar_t lightVS[1024] = L"../DirectX11Cube/light.vs";
-	wchar_t lightPS[1024] = L"../DirectX11Cube/light.ps";
+	wchar_t lightVS[1024] = L"../directx11-cube/light.vs";
+	wchar_t lightPS[1024] = L"../directx11-cube/light.ps";
 	result = InitializeShader(device, hwnd, lightVS, lightPS);
 	if(!result)
 	{

@@ -63,8 +63,8 @@ bool GraphicsClass::Initialize(int screenWidth, int screenHeight, HWND hwnd)
 	}
 
 	// Initialize the model object.
-	char cubeTXT[1024] = "../DirectX11Cube/data/cube.txt";
-	char seafloorTGA[1024] = "../DirectX11Cube/data/texture.tga";
+	char cubeTXT[1024] = "../directx11-cube/data/cube.txt";
+	char seafloorTGA[1024] = "../directx11-cube/data/texture.tga";
 	result = m_Model->Initialize(m_D3D->GetDevice(), m_D3D->GetDeviceContext(), cubeTXT, seafloorTGA);
 	if(!result)
 	{
